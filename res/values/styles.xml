@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Menus on the home screen: near-black panel, white accents. -->
+    <style name="Dialog" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorBackground">#FF121212</item>
+        <item name="android:colorAccent">#FFFFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFFFF</item>
+        <item name="android:textColorSecondary">#FF8C8C8C</item>
+    </style>
+</resources>
